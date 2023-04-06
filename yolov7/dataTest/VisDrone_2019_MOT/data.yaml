@@ -1,0 +1,14 @@
+train: D:\GraduationDesign\experiment\yolov7\dataTest\VisDrone_2019_MOT\train\images
+val: D:\GraduationDesign\experiment\yolov7\dataTest\VisDrone_2019_MOT\val\images
+test: D:\GraduationDesign\experiment\yolov7\dataTest\VisDrone_2019_MOT\test\images
+# number of classes
+nc: 12
+# Classes
+names: [ 'ignored regions', 'pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus',
+         'motor', 'others' ]
+
+#训练：python train.py --batch-size 1 --epochs 2 --data dataTest/VisDrone_2019_MOT/data.yaml --weight D:\GraduationDesign\experiment\yolov7\weights\yolov7.pt
+#验证：python detect.py --source dataTest/fish/test --weights runs/train/exp7/weights/best.pt
+
+
+
